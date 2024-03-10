@@ -36,8 +36,8 @@ class Widget(QWidget, Ui_widget):
         
         if current_text == "0":
             current_text = ""
-            
-        if button.text() == "":
+        
+        if button.text() == "=":
             try:
                 result = str(eval(current_text))
                 self.display_input.setText(result)
@@ -52,7 +52,7 @@ class Widget(QWidget, Ui_widget):
             self.display_input.setText(current_text + button.text())
             self.display_output.setText(current_text + button.text())
             
-        if button.text() == "C":
+        if button.text() == "c":
             self.display_input.setText("0")
             self.display_output.setText("")
             

@@ -220,7 +220,7 @@ class Ui_widget(object):
         self.button_3.setText(QCoreApplication.translate("widget", u"3", None))
         self.button_2.setText(QCoreApplication.translate("widget", u"2", None))
         self.button_1.setText(QCoreApplication.translate("widget", u"1", None))
-        self.button_multiply.setText(QCoreApplication.translate("widget", u"x", None))
+        self.button_multiply.setText(QCoreApplication.translate("widget", u"*", None))
         self.button_minus.setText(QCoreApplication.translate("widget", u"-", None))
         self.button_0.setText(QCoreApplication.translate("widget", u"0", None))
         self.button_decimal.setText(QCoreApplication.translate("widget", u".", None))
@@ -231,7 +231,7 @@ class Ui_widget(object):
         self.button_9.setText(QCoreApplication.translate("widget", u"9", None))
         self.button_plus.setText(QCoreApplication.translate("widget", u"+", None))
         self.button_5.setText(QCoreApplication.translate("widget", u"5", None))
-        self.button_divide.setText(QCoreApplication.translate("widget", u"\u00f7", None))
+        self.button_divide.setText(QCoreApplication.translate("widget", u"/", None))
         self.button_clear.setText(QCoreApplication.translate("widget", u"c", None))
         self.button_equal.setText(QCoreApplication.translate("widget", u"=", None))
     # retranslateUi
